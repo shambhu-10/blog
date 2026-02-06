@@ -1,5 +1,7 @@
-package com.learning.blog.exception;
+package com.blog.exception;
 
+import com.blog.dtos.ErrorResponse;
+import com.blog.dtos.ValidationErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

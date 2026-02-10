@@ -87,5 +87,6 @@ public class CommentController {
     public ResponseEntity<Long> getCommentCount(@PathVariable Long id) {
         Long count = commentService.getCommentCountByPostId(id);
         return ResponseEntity.ok(count);
+
     }
 }
